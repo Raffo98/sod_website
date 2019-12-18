@@ -36,9 +36,10 @@
   border: none;
   outline: 0;
   cursor: pointer;
-  position: absolute;
-  left: 269px;
-  top: 430px;
+  position: relative;
+  padding: 0px;
+  left: 270px;
+  top: 300px;
   width: 303px;
   height: 151px;
 }

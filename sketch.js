@@ -12,7 +12,7 @@ var randDiv;
 // }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  noCanvas();
   buttonJoin = createButton("");
   buttonJoin.class("button");
   buttonJoin.mouseClicked(changePage);
