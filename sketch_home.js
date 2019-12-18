@@ -1,8 +1,3 @@
-// window.onload = function() {
-//   console.log("we");
-//   var context = new AudioContext();
-// }
-
 document.addEventListener('DOMContentLoaded', function() {
   // When the event DOMContentLoaded occurs, it is safe to access the DOM
 
