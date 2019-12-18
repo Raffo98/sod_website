@@ -16,16 +16,21 @@ function setup() {
   buttonJoin = createButton("");
   buttonJoin.class("button");
   buttonJoin.mouseClicked(changePage);
-  setInterval(function() {
+  var timePass = function() {
+    seconds++;
+    document.getElementById("p01").innerHTML = "IN THE LAST " + seconds + " SECONDS";
+    checkInterval = 1;
+  }
+  setInterval(timePass, 1000);
+  timePass();
+  var birthGrowth = function() {
     valueBirth += (1.075 / 2);
     // seconds++;
     // document.getElementById("p01").innerHTML = "IT HAS BEEN " + seconds + " SECONDS";
-    document.getElementById("counter").innerHTML = round(valueBirth);
-  }, 125);
-  setInterval(function() {
-    seconds++;
-    document.getElementById("p01").innerHTML = "IN THE LAST " + seconds + " SECONDS";
-  }, 1000);
+    document.getElementById("counter").innerHTML = round(valueBirth) + " PEOPLE ARE BORN.";
+  }
+  setInterval(birthGrowth, 125);
+  birthGrowth();
   // date = new Date(position.timestamp);
   // hours = date.getHours();
   // minutes = date.getMinutes();
@@ -34,12 +39,4 @@ function setup() {
 
 function changePage() {
   window.open("./home.html", '_self');
-}
-
-function draw() {
-  // background(255);
-
-  // console.log(formattedTime);
-  // valueBirth = (hours * 3600) + (minutes * 60) + seconds;
-
 }

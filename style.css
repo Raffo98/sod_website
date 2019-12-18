@@ -12,7 +12,7 @@
 .title {
   font-family: "Trim";
   color: #ffeb00;
-  position: absolute;
+  position: relative;
   left: 270px;
   margin: 0px;
   padding: 0px;
@@ -20,18 +20,14 @@
 
 #p01 {
   top: 133.5px;
-  font-size: 110px;
+  font-size: 120px;
+  line-height: 100px;
 }
 
 #counter {
-  top: 234.2px;
-  font-size: 276px;
-}
-
-#p02 {
-  top: 530px;
-  /*505.2*/
-  font-size: 110px;
+  top: 142.5px;
+  font-size: 120px;
+  line-height: 100px;
 }
 
 .button {
@@ -42,7 +38,7 @@
   cursor: pointer;
   position: absolute;
   left: 269px;
-  top: 764px;
+  top: 430px;
   width: 303px;
   height: 151px;
 }
@@ -53,7 +49,8 @@ body, html {
   position: relative;
   padding: 0;
   margin: 0;
-  height: auto;
+  height: 100%;
+  overflow-x: hidden;
   overflow-x: hidden;
   background-color: #553c91;
 }
@@ -117,7 +114,7 @@ body, html {
   font-family: "Trim";
   font-size: 2.35em;
   color: #ffeb00;
-  display: inline-block;
+  display: inline;
   position: relative;
   padding-right: 71.5px;
   /* text-align: center; */
