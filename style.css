@@ -8,6 +8,18 @@
   src: url("./assets/font/Trim-Regular.otf");
 }
 
+@media only screen and (max-width: 1920px){
+  .elements {
+    font-size: 1.95vw;
+  }
+}
+
+@media only screen and (min-width: 1919px){
+  .elements {
+    font-size: 37.6px;
+  }
+}
+
 @media only screen and (max-width: 1685px){
   #who {
     display: none;
@@ -98,7 +110,7 @@ body, html {
 .teaser {
   position: relative;
   left: 0;
-  top: 100px;
+  top: 0px;
   width: 100%;
   outline: none;
 }
@@ -160,7 +172,6 @@ body, html {
   font-family: "Trim";
   /* font-size: 2.35em; */
   /* font-size: 37.6px; */
-  font-size: 1.95vw;
   color: #ffeb00;
   display: inline;
   padding-right: 71.5px;
@@ -185,7 +196,6 @@ body, html {
 }
 
 #instagram_logo {
-
   z-index: 4;
 }
 
