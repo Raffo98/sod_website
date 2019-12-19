@@ -127,7 +127,9 @@ body, html {
 }
 
 .rect_social {
-  position: relative;
+  /* position: relative; */
+  position: sticky;
+  position: -webkit-sticky;
   background: #ffeb00;
   display: flex;
   width: 300px;
