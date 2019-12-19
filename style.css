@@ -162,6 +162,7 @@ body, html {
 #intro {
   font-family: "Trim";
   font-size: 120px;
+  /* font-size: 6vw; */
   line-height: 100px;
   color: #ffeb00;
   text-align: left;
@@ -172,6 +173,8 @@ body, html {
   height: 580px;
   padding-top: 100px;
   z-index: 1;
+  font-size-adjust: auto;
+
 }
 
 /*Carousel style*/
