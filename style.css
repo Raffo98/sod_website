@@ -16,17 +16,18 @@
   left: 8.34375rem;
   margin: 0px;
   padding: 0px;
+  font-size: 120px;
 }
 
 #p01 {
   top: 133.5px;
-  font-size: 120px;
+  font-size: 1em;
   line-height: 100px;
 }
 
 #counter {
   top: 142.5px;
-  font-size: 120px;
+  font-size: 1em;
   line-height: 100px;
 }
 
