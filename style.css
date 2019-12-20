@@ -143,6 +143,7 @@ body, html {
   /* padding-left: 30px; */
   z-index: 3;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .menu {
@@ -250,7 +251,7 @@ body, html {
 .date_event {
   font-family: "Trim-regular";
   font-size: 20px;
-  line-height: 29px;
+  line-height: 25px;
   letter-spacing : 0.38px;
   color: #ffeb00;
   margin-top: 31.4px;
@@ -267,10 +268,10 @@ body, html {
 .time_event {
   font-family: "Trim-regular";
   font-size: 20px;
-  line-height: 30px;
+  line-height: 25px;
   letter-spacing : 0.38px;
   color: #ffeb00;
-  margin-top: 31.4px;
+  margin-top: 31.5px;
   float: right;
   margin-right: 44px;
   display: inline-block;
@@ -279,8 +280,8 @@ body, html {
 .location_event {
   font-family: "Trim-regular";
   font-size: 20px;
-  line-height: 16.6px;
-  letter-spacing : -0.29px;
+  line-height: 25px;
+  letter-spacing : -0.4px;
   color: #ffeb00;
   margin-top: 31.4px;
   margin-left: 44px;
