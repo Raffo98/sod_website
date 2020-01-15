@@ -65,6 +65,12 @@
 
 #counter {
   top: 142.5px;
+  font-size: 3em;
+  line-height: 300px;
+}
+
+#p02 {
+  top: 151.5px;
   font-size: 1em;
   line-height: 100px;
 }
